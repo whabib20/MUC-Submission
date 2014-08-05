@@ -1,0 +1,274 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainUIroot"
+    tools:context=".BrazilWCMapActivity" >
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.MapFragment" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bg" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/mapview"
+                android:layout_width="84dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/map" />
+
+            <Button
+                android:id="@+id/satelliteview"
+                android:layout_width="84dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/satellite" />
+
+            <Button
+                android:id="@+id/terrainview"
+                android:layout_width="84dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/terrain" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/gps_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/gps_button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/bottom_strip" >
+
+        <Button
+            android:id="@+id/last10_wc"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/last_2_worldcup" />
+
+        <LinearLayout
+            android:id="@+id/distance_buttons_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            >
+
+        <Button
+            android:id="@+id/hide_guide"
+            android:layout_width="100dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/hide_guide"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/calculate_distance"
+            android:layout_width="150dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/calculate" />
+
+        <Button
+            android:id="@+id/enter_location"
+            android:layout_width="150dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/enter_location" />
+
+       
+         <TextView
+            android:id="@+id/distance_travelled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="0dp"
+            android:text="" />
+        
+        </LinearLayout>
+        
+
+
+       
+
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black_transparent"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:layout_width="500dp"
+            android:layout_height="230dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white" >
+
+            <Button
+                android:id="@+id/add_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/add_new_data_normal" />
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/close_normal" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/close"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="24dp"
+                android:text="City review"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/diaries"
+                android:layout_width="fill_parent"
+                android:layout_height="195dp"
+                android:layout_above="@+id/add_more"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/title"
+                android:fadeScrollbars="false" >
+            </ListView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/input_layout"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/message"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/add_msg_image_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/add_message" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/add_normal" />
+
+        <Button
+            android:id="@+id/close_dialog"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/close_normal" />
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/close_dialog"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:fadeScrollbars="false"
+            android:inputType="textMultiLine"
+            android:maxLength="512"
+            android:scrollbars="vertical" />
+    </RelativeLayout>
+    
+    
+    
+    
+    <RelativeLayout
+        android:id="@+id/search_layout"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/message"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/enter_location_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/add_location" />
+
+        <Button
+            android:id="@+id/btn_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="ENTER" />
+
+        <Button
+            android:id="@+id/close_search_dialog"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/close_normal" />
+
+        <EditText
+            android:id="@+id/et_location"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/enter_location_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:maxLength="50"
+             />
+    </RelativeLayout>
+    
+    
+
+</RelativeLayout>

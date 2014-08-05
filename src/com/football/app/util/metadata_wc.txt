@@ -1,0 +1,224 @@
+{
+    "fifa_wc_info": [
+        {
+            "city": "Belo Horizonte",
+            "country": "Brazil",
+            "year": "2014",
+            "scotland_participated": "0",
+            "icon": "null",
+            "latitude": "-19.862342",
+            "longitude": "-43.926666",
+            "Stadium": "Estadio Mineirao"
+        },
+        {
+            "city": "Brasilia",
+            "country": "Brazil",
+            "year": "2014",
+            "scotland_participated": "0",
+            "icon": "null",
+            "latitude": "-15.794785",
+            "longitude": "-47.881931",
+            "Stadium": "Estadio Nacional"
+        },
+        {
+            "city": "Cuiaba",
+            "country": "Brazil",
+            "year": "2014",
+            "scotland_participated": "0",
+            "icon": "null",
+            "latitude": "-15.601346",
+            "longitude": "-56.102918",
+            "Stadium": "Arena Pantanal"
+        },
+        {
+            "city": "Curitiba",
+            "country": "Brazil",
+            "year": "2014",
+            "scotland_participated": "0",
+            "icon": "null",
+            "latitude": "-25.418585",
+            "longitude": "-49.27161",
+            "Stadium": "Arena da Baixada"
+        },
+        {
+            "city": "Fortaleza",
+            "country": "Brazil",
+            "year": "2014",
+            "scotland_participated": "0",
+            "icon": "null",
+            "latitude": "-3.731596",
+            "longitude": "-38.527041",
+            "Stadium": "Estadio Castelao"
+        },
+        {
+            "city": "Manaus",
+            "country": "Brazil",
+            "year": "2014",
+            "scotland_participated": "0",
+            "icon": "null",
+            "latitude": "-3.123266",
+            "longitude": "-60.030822",
+            "Stadium": "Arena Amazonia"
+        },
+        {
+            "city": "Natal",
+            "country": "Brazil",
+            "year": "2014",
+            "scotland_participated": "0",
+            "icon": "null",
+            "latitude": "-5.781288",
+            "longitude": "-35.200692",
+            "Stadium": "Estadio das Dunas"
+        },
+        {
+            "city": "Porto Alegre",
+            "country": "Brazil",
+            "year": "2014",
+            "scotland_participated": "0",
+            "icon": "null",
+            "latitude": "-30.031592",
+            "longitude": "-51.222807",
+            "Stadium": "Estadio Beira-Rio"
+        },
+        {
+            "city": "Recife",
+            "country": "Brazil",
+            "year": "2014",
+            "scotland_participated": "0",
+            "icon": "null",
+            "latitude": "-8.048999",
+            "longitude": "-34.873437",
+            "Stadium": "Arena Pernambuco"
+        },
+        {
+            "city": "Rio De Janeiro",
+            "country": "Brazil",
+            "year": "2014",
+            "scotland_participated": "0",
+            "icon": "null",
+            "latitude": "-22.907785",
+            "longitude": "-43.217617",
+            "Stadium": "Estadio do Maracana"
+        },
+        {
+            "city": "Salvador",
+            "country": "Brazil",
+            "year": "2014",
+            "scotland_participated": "0",
+            "icon": "null",
+            "latitude": "-12.970279",
+            "longitude": "-38.497871",
+            "Stadium": "Arena Fonte Nova"
+        },
+        {
+            "city": "Sao paulo",
+            "country": "Brazil",
+            "year": "2014",
+            "scotland_participated": "0",
+            "icon": "null",
+            "latitude": "-23.555958",
+            "longitude": "-46.624138",
+            "Stadium": "Arena Corinthians"
+        },
+        {
+            "city": "Johannesburg",
+            "country": "South Africa",
+            "year": "2010",
+            "scotland_participated": "0",
+            "icon": "120.0",
+            "latitude": "-26.209016",
+            "longitude": "28.046763",
+            "Stadium": "Soccer City Stadium"
+        },
+        {
+            "city": "Berlin",
+            "country": "Germany",
+            "year": "2006",
+            "scotland_participated": "0",
+            "icon": "210.0",
+            "latitude": "52.518825",
+            "longitude": "13.405543",
+            "Stadium": "Olympiastadion"
+        },
+        {
+            "city": "Yokohama",
+            "country": "Japan",
+            "year": "2002",
+            "scotland_participated": "0",
+            "icon": "240.0",
+            "latitude": "35.46209",
+            "longitude": "139.575305",
+            "Stadium": "International Stadium Yokohama"
+        },
+        {
+            "city": "Saint-Denis",
+            "country": "France",
+            "year": "1998",
+            "scotland_participated": "1",
+            "icon": "30.0",
+            "latitude": "48.935987",
+            "longitude": "2.35607",
+            "Stadium": "Stade de France"
+        },
+        {
+            "city": "Los Angeles",
+            "country": "USA",
+            "year": "1994",
+            "scotland_participated": "0",
+            "icon": "270.0",
+            "latitude": "34.052932",
+            "longitude": "-118.246938",
+            "Stadium": "Rose Bowl"
+        },
+        {
+            "city": "Rome",
+            "country": "Italy",
+            "year": "1990",
+            "scotland_participated": "1",
+            "icon": "300.0",
+            "latitude": "41.87199",
+            "longitude": "12.47832",
+            "Stadium": "Stadio Olimpico"
+        },
+        {
+            "city": "Mexico City",
+            "country": "Mexico",
+            "year": "1986",
+            "scotland_participated": "1",
+            "icon": "60.0",
+            "latitude": "19.433455",
+            "longitude": "-99.131585",
+            "Stadium": "Estadio Azteca"
+        },
+        {
+            "city": "Madrid",
+            "country": "Spain",
+            "year": "1982",
+            "scotland_participated": "1",
+            "icon": "0.0",
+            "latitude": "40.415612",
+            "longitude": "-3.701509",
+            "Stadium": "Santiago Bernabeu"
+        },
+        {
+            "city": "Buenos Aires",
+            "country": "Argentina",
+            "year": "1978",
+            "scotland_participated": "1",
+            "icon": "180.0",
+            "latitude": "-34.576428",
+            "longitude": "-58.536639",
+            "Stadium": "El Monumental - Estadio Monumental Antonio Vespuci"
+        },
+        {
+            "city": "Munich",
+            "country": "Germany",
+            "year": "1974",
+            "scotland_participated": "1",
+            "icon": "240.0",
+            "latitude": "48.134981",
+            "longitude": "11.583034",
+            "Stadium": "Olympiastadion"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <!-- List item name -->
+
+    <TextView
+        android:id="@+id/messgae_item"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="left"
+        android:padding="10dip"
+        android:text="HI I AM HERE"
+        android:textColor="@color/green"
+        android:textSize="15dp" >
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/messgae_item" >
+<!-- android:layout_alignBaseline="@+id/messgae_item"
+            android:layout_alignBottom="@+id/messgae_item" -->
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="DD/MM/YYYY"
+            android:textColor="@color/black" />
+<!-- android:layout_alignStart="@+id/date" -->
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            
+            android:layout_below="@+id/date"
+            android:text="hh:mm:ss" />
+    </RelativeLayout>
+
+</RelativeLayout>
